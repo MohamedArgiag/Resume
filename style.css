@@ -1,0 +1,110 @@
+body{
+    font-family: "Open sans", sans-serif;
+    background-color: black;
+    color: white;
+    position: relative;
+    background: transparent;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    background: black url("") top right no-repeat;
+    left: 0;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+@media (min-width: 1024px){
+    body::before{
+        background-attachment: fixed;
+    }
+}
+
+a{
+    color: #18d26e;
+
+}
+
+a:hover{
+    color: #35e888;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:sans-serif;
+}
+
+#header{
+    transition: ease-in-out 0.3s;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+#header *{
+    transition:ease-in-out 0.3s;
+}
+
+#header h1{
+    font-size: 48px;
+    margin:0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+#header h1 a,
+#header h1 a:hover {
+    color: white;
+    line-height: 1;
+    display: inline-block;
+}
+
+#header h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: rgba(255,255,255,0.8);
+
+}
+
+#header h2 span{
+    color:white;
+    border-bottom: 2px solid #18d26e;
+    padding-bottom: 6px;
+}
+
+#header h2 span:hover{
+    color:white;
+    border-bottom: 2px solid #ff28f4;
+    padding-bottom: 6px;
+}
+
+.navbar {
+    background: black;
+    padding: 3rem 2rem;
+    height: 0rem;
+    min-height: 12vh;
+}
+
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.navbar-nav{
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+
