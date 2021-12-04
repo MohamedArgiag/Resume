@@ -106,5 +106,93 @@ h1,h2,h3,h4,h5,h6{
     color: white;
 }
 
+.about-me .contact h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+}
+
+.about-me .content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.about-me .contact h3{
+    font-weight: 700;
+    font-size:26px;
+    color: #18d26e;
+}
+
+.about-me .content ul{
+    list-style: none;
+    padding: 0;
+}
+
+.about-me h2{
+    font-size:x-large;
+}
 
 
+#about{
+    transition: ease-in-out 0.3s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+.about img{
+    width: 350px;
+    height: 350px;
+}
+
+#education{
+    transition: ease-in-out 0.3s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+.education img{
+    width: 350px;
+    height: 350px;
+}
+
+#experience{
+    transition: ease-in-out 0.3s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+#project{
+    transition: ease-in-out 0.3s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+#skills{
+    transition: ease-in-out 0.3s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+#contact{
+    transition: ease-in-out 0.3s;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
