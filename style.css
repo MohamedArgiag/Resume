@@ -1,6 +1,6 @@
 body{
     font-family: "Open sans", sans-serif;
-    background-color: black;
+    background-color: #6c757d;
     color: white;
     position: relative;
     background: transparent;
@@ -9,7 +9,7 @@ body{
 body::before{
     content: "";
     position: fixed;
-    background: black url("") top right no-repeat;
+    background: #212529 url("") top right no-repeat;
     left: 0;
     background-size: cover;
     right: 0;
@@ -88,7 +88,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar {
-    background: black;
+    background: #212529;
     padding: 3rem 2rem;
     height: 0rem;
     min-height: 12vh;
@@ -102,7 +102,7 @@ h1,h2,h3,h4,h5,h6{
 
 .navbar-nav{
     font-family: sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: white;
 }
 
@@ -195,4 +195,13 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+}
+
+.accordion .accordion-button{
+    background-color: #212529;
+    color: white
+}
+
+.accordion .accordion-body{
+    background-color: #212529;
 }
