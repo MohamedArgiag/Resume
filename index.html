@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohamed Argiag CV</title>
-    <link href="imgs/TU_Logo.png" rel="icon">
+    <link href="imgs/gem.svg" rel="icon">
 
     <!--bootstrap 4-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -114,7 +114,7 @@
                                 <div class="accordion-item">
                                   <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                      1st Year &emsp;&emsp; GPA:3.40
+                                      1st Year &emsp;&emsp; GPA:3.40 
                                     </button>
                                   </h2>
                                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -239,7 +239,6 @@
                                 </div>
                               </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -256,7 +255,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="imgs/TU_Logo.png">
+                    <img src="imgs/gem.svg">
                 </div>
             </div>
 
@@ -274,7 +273,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="imgs/TU_Logo.png">
+                    <img src="imgs/gem.svg">
                 </div>
             </div>
 
@@ -293,7 +292,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="imgs/TU_Logo.png">
+                    <img src="imgs/gem.svg">
                 </div>
             </div>
 
@@ -308,16 +307,34 @@
         <div class="contact container">
             <div class="section-title">
                 <h2>Contact Me</h2>
-                <p>Learn more about me</p>
+                <form class="row g-3" action="https://formsubmit.co/cd2cc7dcf5bcd1070076dbd40ba279d3" method="POST">
+                    <input type="text" name="_honey" style="display: none;">
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="name" id="firstname" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="Last Name" id="lastname" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="emailnfo" class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" id="emailInfo" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phoneNumber" class="form-label">Phone Number (Optional)</label>
+                        <input type="text" class="form-control" name="phone" id="phoneNumber">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">Comments</label>
+                        <textarea class="form-control" id="comments" name="comments" rows="3" required></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
             </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <img src="imgs/TU_Logo.png">
-                </div>
             </div>
-
-
-
         </div>
     </section>
 
