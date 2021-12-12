@@ -25,12 +25,12 @@ body::before{
 }
 
 a{
-    color: #18d26e;
+    color: #4E4350;
 
 }
 
 a:hover{
-    color: #35e888;
+    color: #45A29E;
     text-decoration: none;
 }
 
@@ -46,6 +46,7 @@ h1,h2,h3,h4,h5,h6{
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+    background-color: #1F2833;
 }
 
 #header *{
@@ -59,7 +60,9 @@ h1,h2,h3,h4,h5,h6{
     line-height: 1;
     font-weight: 700;
     font-family: sans-serif;
+    text-decoration: #45A29E;
 }
+
 
 #header h1 a,
 #header h1 a:hover {
@@ -88,23 +91,24 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .navbar {
-    background: #212529;
-    padding: 3rem 2rem;
-    height: 0rem;
-    min-height: 12vh;
+    background: #C2CAD0;
 }
 
 .navbar .navbar-brand a{
-    padding: 1rem 0;
-    display: block;
-    text-decoration: none;
 }
 
 .navbar-nav{
     font-family: sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: #4E4350;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #4E4350;
+}
+
+
 
 .about-me .contact h2{
     font-weight: 700;
@@ -135,11 +139,27 @@ h1,h2,h3,h4,h5,h6{
 
 #about{
     transition: ease-in-out 0.3s;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+    background-color: #2F4454;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 600px) {
+    #about, #contact, #education, #experience, #project, #skills{
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+    }
+    .about img{
+        width: 50px;
+        height: 50px;
+
+    }
+
 }
 
 .about img{
@@ -149,11 +169,12 @@ h1,h2,h3,h4,h5,h6{
 
 #education{
     transition: ease-in-out 0.3s;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index: 997;
-    overflow-y: auto;
+    overflow: auto;
+    background-color: #1F2833;
 }
 
 .education img{
@@ -163,47 +184,51 @@ h1,h2,h3,h4,h5,h6{
 
 #experience{
     transition: ease-in-out 0.3s;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+    background-color: #2F4454;
 }
 
 #project{
     transition: ease-in-out 0.3s;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+    background-color: #1F2833;
 }
 
 #skills{
     transition: ease-in-out 0.3s;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+    background-color: #2F4454;
 }
 
 #contact{
     transition: ease-in-out 0.3s;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     z-index: 997;
     overflow-y: auto;
+    background-color: #1F2833;
 }
 
 .accordion .accordion-button{
-    background-color: #212529;
+    background-color: #1F2833;
     color: white
 }
 
 .accordion .accordion-body{
-    background-color: #212529;
+    background-color: #1F2833;
 }
 
 
@@ -365,3 +390,19 @@ h1,h2,h3,h4,h5,h6{
         display: none;
     }
 }
+
+
+tbody, td, tfoot, th,
+thead, tr{
+    width: 90%;
+}
+
+
+.card {
+    text-align:justify;
+}
+
+.card-text {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
